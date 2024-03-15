@@ -1,3 +1,7 @@
+# Explanation of Modification to Scraper's Rule
+I updated the scraper to capture the headline of the top article in the "health" section of the Daily Pennsylvanian.<br>
+1. I updated the URL from ```https://www.thedp.com/``` to ```https://www.thedp.com/section/health``` so that BeautifulSoup searches on the page for the health section.<br>
+2. I updated the html element type and class from ```a``` and ```frontpage-link``` to ```h3``` and ```standard-link``` to locate the html element corresponding to the headline of the top article on the "health" page.
 # Basic Git Scraper Template
 
 This template provides a starting point for **git scraping**—the technique of scraping data from websites and automatically committing it to a Git repository using workflows, [coined by Simon Willison](https://simonwillison.net/2020/Oct/9/git-scraping/).
